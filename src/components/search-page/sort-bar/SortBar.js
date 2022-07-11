@@ -24,7 +24,6 @@ function SortBar() {
     });
   }, []);
   useEffect(() => {
-    console.log("called", itemInterval);
     fetchDataBySortType(itemInterval);
   }, [itemInterval]);
   useEffect(() => {

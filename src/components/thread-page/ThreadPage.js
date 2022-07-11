@@ -16,12 +16,15 @@ function ThreadPage() {
   const item = state.data;
 
   const translateHTML = (text) => {
-    let fin = text
-      .replace("&lt;!-- SC_OFF --&gt;", "")
-      .replace("&lt;!-- SC_ON --&gt;", "")
-      .replace('class="md"', "");
-    let finfin = ReactHtmlParser(fin);
-    return finfin[0];
+    if (text) {
+      let fin = text
+        .replace("&lt;!-- SC_OFF --&gt;", "")
+        .replace("&lt;!-- SC_ON --&gt;", "")
+        .replace('class="md"', "");
+      let finfin = ReactHtmlParser(fin);
+      return finfin[0];
+    }
+    return "";
   };
   return (
     <div className="d-flex thread-page">
