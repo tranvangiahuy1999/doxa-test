@@ -1,0 +1,37 @@
+.intro-banner__image-wrapper {
+  width: 100%;  
+  height: 19.2rem;
+}
+.intro-banner__image-wrapper img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.intro-banner__avatar {
+    background-color: white;
+    position: relative;
+    top: -1rem;
+}
+.intro-banner__avatar img {
+    padding: 0.4rem;
+}
+.intro-banner__avatar img, .intro-banner__avatar{
+    border-radius: 14rem;
+    width: 8rem;
+    height: 8rem;   
+}
+.intro-banner__info {
+    padding: 0 2.4rem;
+}
+.intro-banner__title {
+    margin-top: 1.4rem;
+    padding-left: 1.6rem;
+}
+.intro-banner__title h1 {
+    font-weight: 700;
+}
+.intro-banner__title p {
+    color: #7c7c7c;
+    font-weight: 600;
+}

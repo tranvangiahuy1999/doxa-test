@@ -1,0 +1,39 @@
+.sort-bar {
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sort-bar__sort-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 14rem;
+    margin: 1rem;    
+}
+.sort-bar__sort-btn:hover {
+    background-color: rgb(219, 219, 219);
+}
+.sort-bar__btn-label {
+    padding-left: 0.5rem;
+}
+.sort-bar__sort-btn.active {
+    background-color: rgb(240, 240, 240);
+}
+.sort-bar__sort-icon {
+    width: 2rem;
+    height: 2rem;
+}
+.sort-bar__sort-icon, .sort-bar__btn-label {
+    color: gray;
+    fill: gray;   
+    font-weight: 600;     
+}
+.sort-bar__sort-btn.active .sort-bar__sort-icon, .sort-bar__sort-btn.active .sort-bar__btn-label {
+    color: #8ab4c8;
+    fill: #8ab4c8;
+}

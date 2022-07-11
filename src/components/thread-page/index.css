@@ -1,0 +1,9 @@
+.thread-page {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: white;
+}
+.thread-page__page-content {
+    width: 100%;
+    padding-left: 1rem;
+}

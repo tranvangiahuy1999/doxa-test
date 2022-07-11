@@ -1,0 +1,65 @@
+.thread-item {
+    border: 1px solid rgb(166, 166, 166);
+    border-radius: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.thread-item:hover {
+    border-color: rgb(51, 51, 51);
+    cursor: pointer;
+}
+.vote-section {
+    background-color: #fbfcfc;
+    padding: 0.8rem 0.4rem 0.8rem 0;
+    border-bottom-left-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+}
+.vote-icon, .action-icon {
+    height: 2rem;
+    width: 2rem;
+}
+.vote-btn, .action-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;        
+}
+.vote-btn:hover {
+    background-color: rgb(235, 235, 235);       
+}
+.vote-up:hover {
+    fill: red;
+}
+.vote-down:hover {
+    fill: blue;
+}
+.thread-content-section {
+    background-color: white;
+    width: 100%;
+    padding: 0 0.8rem 0 0.8rem;
+}
+.post-by .author-name, .post-by .tag {
+    color: #1A1A1B;
+    background-color: #EDEFF1;    
+}
+.post-by {
+    color: #787C7E;
+    margin-top: 0.8rem;
+}
+.thread-title {
+    display: inline; 
+    padding-bottom: 2rem;   
+}
+.action-bar {
+    margin-top: 1rem;
+}
+.action-btn {
+    padding: 0.8rem;
+}
+.action-btn:hover {
+    background-color: #e8e8e8;
+}
+.action-btn .thread-item__action-label, .action-btn .action-icon {
+    fill: #878a8c;
+    color: #878a8c;
+    font-weight: 600;
+}
