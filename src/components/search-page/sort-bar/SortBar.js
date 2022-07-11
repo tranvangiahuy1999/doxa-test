@@ -25,7 +25,7 @@ function SortBar() {
   }, []);
   useEffect(() => {
     fetchDataBySortType(itemInterval);
-  }, [itemInterval]);
+  }, [itemInterval, sortState]);
   useEffect(() => {
     const resetInterval = 25;
     setItemInterval(resetInterval);
